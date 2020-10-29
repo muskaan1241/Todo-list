@@ -1,0 +1,101 @@
+body{
+    background:url(wall.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ }
+
+ #list h1{
+     font-weight: bolder;
+     padding-bottom: 30px;
+     padding-top: 0px;
+     font-size: 2.5em;
+     color: #FFC7D5;
+ }
+ 
+ #list{
+     min-height : 600px;
+     background: #FF2850;
+     background: #0B0225;
+     border: none;
+     border-radius: 10px;
+     margin: 50px;
+     margin-bottom: 0;
+     text-align: center;
+     padding: 50px;
+     padding-bottom: 20px;
+ }
+ 
+ input[type="text"]{
+     margin-bottom:20px;
+     height: 60px;
+     width: 52%;
+     margin-left: 4px;
+     margin-right: 20px;
+     font-size: 24px;
+     border: none;
+     outline: none;
+     border-radius: 8px;
+     padding-left : 10px;
+     background: #dbc6c6;
+ 
+ }
+
+ #submit:hover{
+     background:red !important;
+     outline: none;
+     border: none;
+ }
+ 
+ input[type='checkbox']{
+     float: right;
+     clear: both;
+     position: relative;
+ }
+
+ 
+ #tasks{
+     margin: auto;
+     width: 70%;
+ }
+
+#tasks li:hover{
+    background-color: #FF2850;
+    color: black;
+}
+
+ 
+ #tasks li{
+    border-bottom : 1px solid  #FF2850;
+    margin: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 200%;
+    text-align:left;
+    color: #c0c0c0;
+    list-style: none;
+    overflow-wrap: break-word;
+ }
+ 
+ .check{
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    margin-right: 5px;
+    
+ 
+ }
+
+.but{
+    float: right;
+}
+.but input{
+    margin-right : 20px;
+}
+.but button {
+    margin-top : -20px;
+    background-color: red;
+    border: 1px solid #0B0225;
+}
+}
